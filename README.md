@@ -7,8 +7,16 @@
 
 
 ## インストール
-   ポートスキャンを実施するサーバでソースをダウンロードします。
 
+   1. 実施には、nmapコマンドが必要です。
+   ```
+   #CentOS
+   sudo yum install nmap
+   #ubuntu
+   sudo apt-get install nmap
+   ```
+
+   1. このツールをダウンロードします。
    ```
    git clone https://github.com/iiyuda7/nmap_easy_port_scan.git
    ```
